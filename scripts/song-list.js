@@ -5,8 +5,8 @@
         <td>
           <button>
             <span class="song-number">${index + 1}</span>
-            <span class="ion-play"></span>
-            <span class="ion-pause"></span>
+            <span class="fas fa-play"></span>
+            <span class="fas fa-pause"></span>
           </button>
         </td>
         <td>${song.title}</td>

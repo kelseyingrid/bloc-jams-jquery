@@ -24,18 +24,18 @@ tr:focus {
   outline: aliceblue;
 }
 
-tr:hover .ion-play,
-tr.playing .ion-pause,
-tr.paused .ion-play {
+tr:hover .fa-play,
+tr.playing .fa-pause,
+tr.paused .fa-play {
   display: block;
 }
 
-tr .ion-play, 
-tr .ion-pause,
+tr .fa-play,
+tr .fa-pause,
 tr:hover .song-number,
-tr.playing .ion-play, 
+tr.playing .fa-play,
 tr.playing .song-number,
-tr.paused .ion-pause,
+tr.paused .fa-pause,
 tr.paused .song-number {
   display: none;
 }
@@ -77,15 +77,15 @@ tr button:focus {
 tr button:focus .song-number {
   display: none;
 }
-tr button:focus .ion-play {
+tr button:focus .fa-play {
   display: block;
 }
 
 tr.playing button:focus .song-number,
-tr.playing button:focus .ion-play {
+tr.playing button:focus .fa-play {
   display: none;
 }
-tr.playing button:focus .ion-pause {
+tr.playing button:focus .fa-pause {
   display: block;
 }
 
@@ -99,6 +99,6 @@ tr.playing button:focus .ion-pause {
 }
 
 .song-duration {
-  color: hsla(0, 0%, 100%, 0.5);  
+  color: hsla(0, 0%, 100%, 0.5);
   text-align: right;
 }
